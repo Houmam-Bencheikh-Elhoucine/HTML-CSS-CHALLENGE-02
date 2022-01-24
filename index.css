@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: "PTSans-bold";
+    src: url("Fonts/PT_Sans/PTSans-Bold.ttf");
+}
+
+body{
+    background-color: white;
+    background-image: url("images/Background.svg");
+    background-size: cover;
+}
+
+.Form-01{
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    left: 14%;
+    top: 20%;
+    
+    font-family: "PTSans-bold",sans-serif;
+    text-align: center;
+    color: #060688;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.Form-01 #info{
+    width: 100%;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px;
+    box-shadow: #000000a0 2px 2px 4px 4px, #3c3cffff 0px 0px 4px 4px;
+}
+
+.Form-01 #button{
+    padding: 4%;
+    position: absolute;
+    width: 80%;
+    left: 15%;
+    background-image: url("images/button.svg");
+    background-size: cover;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 0%;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+.Form-01 p{
+    padding: 20%;
+    left: 50%;
+    font-family: 'PTSans-bold';
+    font-size: 14px;
+}
+.Contents{
+    
+    width: 40%;
+    font-size: 15pt;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    text-align: center;
+}
+
+.Contents h1{
+    font-family: "PTSans-bold", sans-serif;
+    color: #3c3cff;
+    padding-bottom: 2%;
+}
+.Contents p{
+    font-family: "PTSans-bold", sans-serif;
+    color: #0707aa;
+}
